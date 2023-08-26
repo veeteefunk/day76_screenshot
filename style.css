@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+    background-color: blueviolet;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.main img {
+    max-width: 100%;
+}
+
+#container,
+#preview-container {
+    background-color: #fff;
+    border-radius: 0.8em;
+    padding: 1em;
+}
+
+#container p {
+    font-size: 0.8em;
+    color: #606060;
+    text-align: justify;
+    padding: 0.8rem 0.5rem;
+}
+
+#container img {
+    padding: 0.4rem 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons #capture-btn i {
+    font-size: 2rem;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    color: #000000; 
+    transition: background-color, color 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(149, 146, 146);
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
